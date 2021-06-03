@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="csspromociones.css">
-    <title>Perfil</title>
+
+    <title>Promociones</title>
 </head>
 <body>
     <!-- Fondo -->
@@ -17,11 +18,39 @@
     </div>
 
     <div class="tarjeta">
-        <img src="recursos/Pepito Panchito.png" border=0 name="pepito" width="300" height="300">
+        <img src="recursos/Pepito Panchito.png" name="pepito" width="300" height="300">
     </div>
 
     <div class="conejo">
-        <img src="recursos/Conejopromo.png" border=0 name="conejo">
+        <img src="recursos/Conejopromo.png" name="conejo" height="450px" width="450px">
+    </div>
+
+    <div>
+        <div class="container" id="example" style="position: absolute; top: 90px; left: 720px; width: 100%; height: 100%;">
+          </div>
+        <script src="SwiperBox.js"></script>
+        <script>
+        
+        // you can make a swipe gallery with pure html
+        var mySwipe = new SwiperBox({
+                  items:
+                    [
+                    '<div class="myitem"><img src="recursos/1.png" /></div>',
+                    '<div class="myitem"><img src="recursos/2.png"  /></div>',
+                    '<div class="myitem"><img src="recursos/3.png"  /></div>',
+                    '<div class="myitem"><img src="recursos/4.png"  /></div>'
+                    ]
+        
+                  });
+        
+        //HTMLElement is the main elemnt and it is accessable for do any thing you can do with a html object
+        
+        mySwipe.HTMLElement.style.width = "480px";
+        
+        mySwipe.HTMLElement.classList.add("mygal");
+        
+        document.getElementById("example").appendChild(mySwipe.HTMLElement);
+        </script>
     </div>
 
     <div class="cuadricula">

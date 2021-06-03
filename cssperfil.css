@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("recursos/Fondodeli.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .tituloperfil{
+      left: 20px;
+      top: 82px;
+      width: 419px;
+      height: 41px;
+      color: #D6956B;
+      position: absolute;
+      font-size: 42px;
+      text-align: left;
+      white-space: nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .rectangulo{
+      position: absolute;
+      right: 400px;
+      top: 172px;
+      width: 476px;
+      height: 354px;
+      fill: #FFFFFF;
+      margin: 4px;
+      stroke-width: 3px;
+      stroke-linecap: butt;
+      stroke-linejoin: miter;
+      stroke-miterlimit: 100px;
+      stroke-dashoffset: 0px;
+  }

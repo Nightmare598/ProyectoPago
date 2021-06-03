@@ -29,16 +29,56 @@ body, html {
   }
 
   .rectangulo{
+      top: 192px;
+      left: 714px;
+
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid #D6956B;
+    background-color: #ffffff;
+    padding: 10px; 
+    width: 490px;
+    height: 480px;
+  }
+
+  .dentrorectangulo{
+      margin-left: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
       position: absolute;
-      right: 400px;
-      top: 172px;
-      width: 476px;
-      height: 354px;
-      fill: #FFFFFF;
-      margin: 4px;
-      stroke-width: 3px;
-      stroke-linecap: butt;
-      stroke-linejoin: miter;
-      stroke-miterlimit: 100px;
-      stroke-dashoffset: 0px;
+  }
+
+ #fechadia, #fechames{
+    border-radius: 25px;
+    border: 2px solid #707070;
+    padding: 20px; 
+    width: 70px;
+    height: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #fechayear{
+    border-radius: 25px;
+    border: 2px solid #707070;
+    padding: 20px; 
+    width: 95px;
+    height: 15px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #postresfavs{
+    border-radius: 25px;
+    border: 2px solid #707070;
+    padding: 20px; 
+    width: 400px;
+    height: 70px; 
+  }
+  #hobbies{
+    border-radius: 25px;
+    border: 2px solid #707070;
+    padding: 20px; 
+    width: 400px;
+    height: 80px; 
+    text-align: left;
   }

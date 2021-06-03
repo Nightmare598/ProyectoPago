@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("recursos/Fondodeli.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .rectangulo{
+      top: 192px;
+      left: 714px;
+    position: absolute;
+    border-radius: 25px;
+    border: 3px solid #D6956B;
+    background-color: #ffffff;
+    padding: 10px; 
+    width: 490px;
+    height: 480px;
+  }

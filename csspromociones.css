@@ -16,8 +16,12 @@ body, html {
 }
 
 .imgback{
+  position: relative;
+  right: 0px;
   width:300;
   height:300;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .conejopromo{
@@ -56,8 +60,8 @@ body, html {
 
 .cuadricula{
   position: absolute; 
-  bottom: 30px; 
-  right: 0px; 
+  bottom: 0px; 
+  right: 20px; 
   width:950; 
   height:100;
   /* background-attachment: fixed; 
@@ -78,6 +82,7 @@ body, html {
   left: 720px; 
   width: 100%; 
   height: 100%;
+  overflow: hidden;
 }
 
 @media only screen and (max-width:700px) {
@@ -108,29 +113,30 @@ body, html {
 
   .titulopagina{
     left: 20px;
-    top: 0px;
+    top: 30px;
     width: 419px;
     height: 41px;
     color: #D6956B;
     position: absolute;
-    font-size: 40px;
+    font-size: 4vw;
     text-align: left;
     white-space: nowrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .imgback{
-    position: relative;
+    position: absolute;
     width:200px;
     height:200px;
-    left: -50px;
+    left: 0px;
   }
   
   .conejopromo{
+    display: none;
     position: absolute;
     height:300px;
     width:300px;
-    top: 200px;
+    top: 0px;
   }
 
   .cuadricula{
@@ -138,15 +144,19 @@ body, html {
     top: 370px; 
     right: 0px; 
     width: 600px;
+    display: none;
     /* background-attachment: fixed; 
     background-repeat: no-repeat; */
   }
 
   .container{
+    align-items: center;
     position: absolute; 
-    top: 200px; 
-    left: -70px; 
-    width: 100px; 
-    height: 200px;
+    top: 110px; 
+    left: -60px;
+    width: 480px; 
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
   }
 }

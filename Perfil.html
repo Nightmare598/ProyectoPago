@@ -9,64 +9,65 @@
 </head>
 <body>
     <!-- Fondo -->
-    <div class="bg"></div>
+    <div class="bg">
     <!--  -->
 
     <div class="tituloperfil">
         <b>¡Bienvenido a tu Perfil!</b> 
     </div>
 
-    <img src="recursos/Pepito Panchito.png" alt="Pepito Panchito" style="position: absolute; right: 20px; top: 20px;" width="200px" height="200px">
+    <img src="recursos/Pepito Panchito.png" alt="Pepito Panchito" class="imgback" >
 
     <div>
-    <img src="recursos/Perfil.png" alt="Imagen de Perfil" style="position: absolute; left: 140px; top: 150px;" width="300px" height="300px">
-        <img src="recursos/editicon.png" alt="Editar" width="35px" height="35px" style="position: absolute; left: 410px; top: 220px;">
-    <b style="font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute; color: #D6956B; top: 460px; left: 160px; font-size: 30px;">Pepito Panchito</b>
-        <img src="recursos/editicon.png" alt="Editar" width="25px" height="25px" style="position: absolute; left: 440px; top: 465px;">
-    <textarea name="desc" id="desc" cols="30" rows="5" style="position: absolute; top: 500px; left: 90px;">¡Hola! Soy Pepito Panchito, me gustan mucho los chocolates y los pasteles; los conejos son mis favoritos y soy Cruceño de nacimiento. 
+    <img src="recursos/Perfil.png" alt="Imagen de Perfil" class="imgperfil" >
+        <img src="recursos/editicon.png" alt="Editar" class="editicon00"  >
+    <b class="nombreper">Pepito Panchito</b>
+        <img src="recursos/editicon.png" alt="Editar" class="editicon01" >
+    <textarea name="desc" id="desc" cols="30" rows="5" class="descrip" >¡Hola! Soy Pepito Panchito, me gustan mucho los chocolates y los pasteles; los conejos son mis favoritos y soy Cruceño de nacimiento. 
     </textarea>    
-        <img src="recursos/editicon.png" alt="Editar" width="25px" height="25px" style="position: absolute; left: 465px; top: 500px;">
+        <img src="recursos/editicon.png" alt="Editar" class="editicon02">
     
     </div>  
-
+</div>
+<div class="bg-2">
     <div class="rectangulo">
-        <div class="dentrorectangulo" style="left: 50px;">
-        <b>Sexo</b> <br> <br>
-        <center style="position: relative; left: 25px;">
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male" style="margin-right: 10px;color: #D6956B;">Masculino</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female" style="margin-right: 10px;color: #D6956B;">Femenino</label>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other" style="margin-right: 10px;color: #D6956B;">Otro</label>
-    </center>
-    <br>
-    <b>Fecha de Nacimiento</b> <br> <br>
-        <label for="dia" style="position: relative; left: 103px;font-size: 10px;">DD</label>
-        <label for="mes" style="position: relative; left: 155px;font-size: 10px;">MM</label>
-        <label for="year" style="position: relative; left: 215px;font-size: 10px;">YYYY</label>
-    <center>
+            <div class="dentrorectangulo">
+            <b>Sexo</b> <br> <br>
+            <center style="position: relative; left: 25px;">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" style="margin-right: 10px;color: #D6956B;">Masculino</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" style="margin-right: 10px;color: #D6956B;">Femenino</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other" style="margin-right: 10px;color: #D6956B;">Otro</label>
+        </center>
+        <br>
+        <b>Fecha de Nacimiento</b> <br> <br>
+            <label for="dia" class="dia" >DD</label>
+            <label for="mes" class="mes" >MM</label>
+            <label for="year" class="year">YYYY</label>
+        <center>
+            
+            <input type="text" name="fechadia" id="fechadia">
+            <input type="text" name="fechames" id="fechames">
+            <input type="text" name="fechayear" id="fechayear">
+            <img src="recursos/editicon.png" alt="Editar"  class="editicon1">
+        </center>
+
         
-        <input type="text" name="fechadia" id="fechadia">
-        <input type="text" name="fechames" id="fechames">
-        <input type="text" name="fechayear" id="fechayear">
-        <img src="recursos/editicon.png" alt="Editar" width="25px" height="25px" style="position: absolute; right: 30px;">
-    </center>
-
-    
-    <br>
-    <b>Postres y Sabores Favoritos</b> <br> <br>
-    <center>
-    <input type="text" name="postresfavs" id="postresfavs">
-    </center>
-    <br>
-    <b>Actividad Favorita</b> <br> <br>
-    <center>
-    <input type="text" name="hobbies" id="hobbies" placeholder="Ingresa tus hobbies y actividades favoritas">
-    <img src="recursos/editicon.png" alt="Editar" width="25px" height="25px" style="position: absolute; top: 370px;right: 30px;">
-    </center>
+        <br>
+        <b>Postres y Sabores Favoritos</b> <br> <br>
+        <center>
+        <input type="text" name="postresfavs" id="postresfavs">
+        </center>
+        <br>
+        <b>Actividad Favorita</b> <br> <br>
+        <center>
+        <input type="text" name="hobbies" id="hobbies" placeholder="Ingresa tus hobbies y actividades favoritas">
+        <img src="recursos/editicon.png" alt="Editar"  class="editicon2">
+        </center>
+        </div>
     </div>
-    </div>
-
+</div>
 </body>
 </html>

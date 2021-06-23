@@ -15,6 +15,16 @@ body, html {
   background-size: cover;
 }
 
+.imgback{
+  width:300;
+  height:300;
+}
+
+.conejopromo{
+  height:450px;
+  width:450px;
+}
+
 .titulopagina{
     left: 20px;
     top: 0px;
@@ -48,6 +58,8 @@ body, html {
   position: absolute; 
   bottom: 30px; 
   right: 0px; 
+  width:950; 
+  height:100;
   /* background-attachment: fixed; 
   background-repeat: no-repeat; */
 }
@@ -58,4 +70,83 @@ body, html {
   right: 940px; 
   /* background-attachment: fixed; 
   background-repeat: no-repeat; */
+}
+
+.container{
+  position: absolute; 
+  top: 90px; 
+  left: 720px; 
+  width: 100%; 
+  height: 100%;
+}
+
+@media only screen and (max-width:700px) {
+  .bg {
+    /* The image used */
+    background-image: url("recursos/Fondodeli.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-2 {
+    /* The image used */
+    background-image: url("recursos/Fondodeli.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .titulopagina{
+    left: 20px;
+    top: 0px;
+    width: 419px;
+    height: 41px;
+    color: #D6956B;
+    position: absolute;
+    font-size: 40px;
+    text-align: left;
+    white-space: nowrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .imgback{
+    position: relative;
+    width:200px;
+    height:200px;
+    left: -50px;
+  }
+  
+  .conejopromo{
+    position: absolute;
+    height:300px;
+    width:300px;
+    top: 200px;
+  }
+
+  .cuadricula{
+    position: absolute; 
+    top: 370px; 
+    right: 0px; 
+    width: 600px;
+    /* background-attachment: fixed; 
+    background-repeat: no-repeat; */
+  }
+
+  .container{
+    position: absolute; 
+    top: 200px; 
+    left: -70px; 
+    width: 100px; 
+    height: 200px;
+  }
 }
